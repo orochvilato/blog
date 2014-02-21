@@ -11,7 +11,7 @@ RELATIVE_URLS = True
 
 GITHUB_URL = 'https://github.com/orochvilato/'
 DISQUS_SITENAME = "itfwi"
-PDF_GENERATOR = False
+PDF_GENERATOR = True
 REVERSE_CATEGORY_ORDER = True
 LOCALE = "C"
 DEFAULT_PAGINATION = 4
@@ -60,4 +60,4 @@ ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%m}/{slug}/index.html'
 # Custom Home page
 DIRECT_TEMPLATES = (('index', 'blog', 'tags', 'categories', 'archives'))
 PAGINATED_DIRECT_TEMPLATES = (('blog',))
-TEMPLATE_PAGES = {'home.html': 'index.html',}
+TEMPLATE_PAGES = {'index.html': 'index.html',}

@@ -6,4 +6,4 @@ Tags: pelican, publishing
 Author: Josef Jezek
 Summary: Short version for index and feeds
 
-This is the content of my blog post (test).
+This is the content of my blog post (test2).

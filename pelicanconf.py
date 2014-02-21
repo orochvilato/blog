@@ -58,6 +58,6 @@ ARTICLE_URL = 'posts/{date:%Y}/{date:%m}/{slug}/'
 ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%m}/{slug}/index.html'
 
 # Custom Home page
-DIRECT_TEMPLATES = (('index', 'blog', 'tags', 'categories', 'archives'))
-PAGINATED_DIRECT_TEMPLATES = (('blog',))
-TEMPLATE_PAGES = {'home.html': 'index.html',}
+#DIRECT_TEMPLATES = (('index', 'blog', 'tags', 'categories', 'archives'))
+#PAGINATED_DIRECT_TEMPLATES = (('blog',))
+#TEMPLATE_PAGES = {'home.html': 'index.html',}

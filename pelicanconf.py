@@ -50,7 +50,8 @@ PYGMENTS_RST_OPTIONS = {'linenos': 'table'}
 # have to be in caps
 foobar = "barbaz"
 
-THEME = 'themes/foundation-default-colours'
+#THEME = 'themes/foundation-default-colours'
+THEME = 'themes/pelican-cait'
 OUTPUT_PATH = 'output'
 PATH = 'content'
 

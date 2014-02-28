@@ -3,11 +3,11 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Olivier ROCH VILATO'
 SITENAME = "IT FWI Blog"
-SITEURL = 'http://blog.notmyidea.org'
+SITEURL = 'http://orochvilato.github.io/blog'
 TIMEZONE = "America/Martinique"
 
 # can be useful in development, but set to False when you're ready to publish
-RELATIVE_URLS = True
+RELATIVE_URLS = False
 
 GITHUB_URL = 'https://github.com/orochvilato/'
 DISQUS_SITENAME = "itfwi"
@@ -16,6 +16,7 @@ REVERSE_CATEGORY_ORDER = True
 LOCALE = "C"
 DEFAULT_PAGINATION = 4
 DEFAULT_DATE = (2014, 2, 2, 14, 1, 1)
+
 
 FEED_ALL_RSS = 'feeds/all.rss.xml'
 CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
@@ -51,7 +52,7 @@ PYGMENTS_RST_OPTIONS = {'linenos': 'table'}
 foobar = "barbaz"
 
 #THEME = 'themes/foundation-default-colours'
-THEME = 'themes/pelican-cait'
+THEME = 'themes/pure'
 OUTPUT_PATH = 'output'
 PATH = 'content'
 

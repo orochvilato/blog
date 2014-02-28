@@ -41,7 +41,7 @@ STATIC_PATHS = [
     ]
 
 # custom page generated with a jinja2 template
-TEMPLATE_PAGES = {'pages/jinja2_template.html': 'jinja2_template.html'}
+#TEMPLATE_PAGES = {'pages/jinja2_template.html': 'jinja2_template.html'}
 
 # code blocks with line numbers
 PYGMENTS_RST_OPTIONS = {'linenos': 'table'}
@@ -59,6 +59,6 @@ ARTICLE_URL = 'posts/{date:%Y}/{date:%m}/{slug}/'
 ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%m}/{slug}/index.html'
 
 # Custom Home page
-DIRECT_TEMPLATES = (('index', 'blog', 'tags', 'categories', 'archives'))
-PAGINATED_DIRECT_TEMPLATES = (('blog',))
-TEMPLATE_PAGES = {'index.html': 'index.html',}
+#DIRECT_TEMPLATES = (('index', 'blog', 'tags', 'categories', 'archives'))
+#PAGINATED_DIRECT_TEMPLATES = (('blog',))
+#TEMPLATE_PAGES = {'index.html': 'index.html',}
